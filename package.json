@@ -18,5 +18,8 @@
   "homepage": "https://github.com/cheongjh/first-node-application#readme",
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
