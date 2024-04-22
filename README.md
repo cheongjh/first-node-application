@@ -18,3 +18,11 @@ Note: If you receive an error using the AWS CLI, make sure that you have the lat
 4. Run the following command to push this image to your newly created AWS repository:
 
 `docker push 255945442255.dkr.ecr.us-east-1.amazonaws.com/node-docker-leon:latest`
+
+#  Steps to run ECR image
+
+`docker run -d -p 8080:3000 255945442255.dkr.ecr.us-east-1.amazonaws.com/node-docker-leon:latest`
+
+![image](https://github.com/cheongjh/first-node-application/assets/15931746/4d721a09-8459-4a2a-b353-648dc5e04bcc)
+
+![image](https://github.com/cheongjh/first-node-application/assets/15931746/87fa5407-417f-496a-b102-2b736af4c2a8)
